@@ -4,18 +4,18 @@
 
 @layer components {
   .main-container {
-    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-slate-900 border-2 border-yellow-500 text-slate-100 text-lg 
+    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-slate-900 border-2 border-green-500 text-slate-100 text-lg 
   }
 
   .headline {
-    @apply text-3xl md:text-4xl py-5 border-b-2 border-yellow-500 px-10  bg-gray-900 font-bold text-violet-400
+    @apply text-3xl md:text-4xl py-5 border-b-2 border-green-500 px-10  bg-gray-900 font-bold text-green-400
   }
   .headline-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-orange-400 to-yellow-600
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-300 via-green-800 to-green-600
   }
 
   .form-style {
-    @apply flex flex-col  border rounded-lg border-yellow-600 
+    @apply flex flex-col  border rounded-lg border-green-600 
   }
   .input-double{
     @apply px-6 py-3 text-slate-100 border-none  outline-none bg-gray-900 placeholder-gray-400 focus:placeholder-transparent  focus-within:ring-0 rounded-t-lg
@@ -23,11 +23,11 @@
 
 
   .input-style{
-    @apply px-6 py-3 text-slate-100 border-none rounded-t-lg outline-none bg-gray-900 placeholder-gray-400 focus:placeholder-transparent  focus-within:ring-amber-500
+    @apply px-6 py-3 text-slate-100 border-none rounded-t-lg outline-none bg-gray-900 placeholder-gray-400 focus:placeholder-transparent  focus-within:ring-green-500
   }
 
   .btn-purple {
-    @apply font-bold px-4 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-200 transform bg-gradient-to-r from-yellow-600 via-orange-400 to-yellow-600 hover:bg-amber-700 z-30 rounded-b-lg 
+    @apply font-bold px-4 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-200 transform bg-gradient-to-r from-green-600 via-green-400 to-green-600 hover:bg-green-700 z-30 rounded-b-lg 
   }
 
   .btn-grey {
@@ -35,10 +35,10 @@
   }
 
   .btn-connect{
-    @apply bg-gradient-to-l from-yellow-400 via-orange-400 to-yellow-600 px-5 py-3 mt-5 rounded-lg text-slate-100 font-bold
+    @apply bg-gradient-to-l from-green-600 via-green-400 to-green-600 px-5 py-3 mt-5 rounded-lg text-slate-100 font-bold
   }
 
   .bank-owner-section{
-    @apply bg-indigo-900 bg-opacity-60 text-white w-4/5 mx-auto border-2 rounded-xl border-indigo-500 mb-10
+    @apply bg-green-900 bg-opacity-60 text-white w-4/5 mx-auto border-2 rounded-xl border-green-500 mb-10
   }
 }

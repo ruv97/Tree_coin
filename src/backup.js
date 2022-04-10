@@ -123,7 +123,7 @@ function App() {
         <h3>Address: {defaultAccount}</h3>
       </div>
       <form onSubmit={setHandler}>
-        <input className='bg-indigo-500' id="setText" type="text" />
+        <input className='bg-green-500' id="setText" type="text" />
         <button type={"submit"}> Update Contract </button>
       </form>
       <div>
@@ -135,7 +135,7 @@ function App() {
       </div>
       <div>
         <form onSubmit={deposityMoneyHandler}>
-          <input className='bg-indigo-500' id="depositMoney" type="text" />
+          <input className='bg-green-500' id="depositMoney" type="text" />
           <button type="submit"> Deposit Money </button>
         </form>
 
