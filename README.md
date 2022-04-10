@@ -1,6 +1,6 @@
-# Cadena Bank DAPP
+# Tree_coin DAPP
 
-This is the completed code for the Bank DAPP.
+This is the completed code for the Tree_coin DAPP.
 
 ## To Install
 
